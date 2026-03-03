@@ -1,45 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>VIJAY BAMANE | Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VIJAY BAMANE | Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <div class="container">
-            <h1>VIJAY BAMANE</h1>
-            <p class="designation">System Administrator/Devops Engineer | UI Designer</p>
+<header>
+    <nav>
+        <h2 class="logo">VIJAY BAMANE</h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Hello, I'm <span>Vijay Bamane</span></h1>
+    <h3>I am a <span id="typing"></span></h3>
+    <a href="#projects" class="btn">View My Work</a>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate web developer creating modern and responsive websites.</p>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">React</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+        <div class="project-card">
+            <h3>Project One</h3>
+            <p>Short project description.</p>
         </div>
-    </header>
-
-    <section class="about container">
-        <h2>About Me</h2>
-        <p>
-            I’m a passionate developer who loves building modern, responsive, 
-            and user-friendly websites. I specialize in clean UI design 
-            and performance-focused development.
-        </p>
-    </section>
-
-    <section class="contact container">
-        <h2>Contact</h2>
-        <div class="contact-box">
-            <p>Email: bamanevijay50@gmail.com</p>
-            <p>Phone: +91 8866434393</p>
-            <p>GitHub: 
-                <a href="https://github.com/yourusername" target="_blank">
-                    github.com/yourusername
-                </a>
-            </p>
+        <div class="project-card">
+            <h3>Project Two</h3>
+            <p>Short project description.</p>
         </div>
-    </section>
+        <div class="project-card">
+            <h3>Project Three</h3>
+            <p>Short project description.</p>
+        </div>
+    </div>
+</section>
 
-    <footer>
-        <p>© 2026 Vijay Bamane | Built with ❤️</p>
-    </footer>
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: your@email.com</p>
+</section>
 
+<footer>
+    <p>© 2026 Your Name | Designed with ❤️</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
