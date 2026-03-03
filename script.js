@@ -1,4 +1,4 @@
-const textArray = ["Web Developer", "UI Designer", "JavaScript Enthusiast"];
+const textArray = ["System Administrator", "Devops Engineer"];
 let typingElement = document.getElementById("typing");
 
 let textIndex = 0;
